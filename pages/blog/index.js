@@ -15,7 +15,7 @@ const Blog = ({ blogs }) => {
     <div>
       <h1>Blog all list</h1>
       {blogs.map((blog) => (
-        <Link href={'/blogs/' + blog.id} key={blog.id}>
+        <Link href={'/blog/' + blog.id} key={blog.id}>
           <a className={styles.single}>
             <h3> {blog.title}</h3>
           </a>
