@@ -8,6 +8,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title> Kod Sözlük Blog List | Home</title>
+      <meta name="keywords" content="kodsozlük"></meta>
+    </Head>
     <div>
       <h1>HomePage</h1>
       <p>lorem ipsum</p>
@@ -16,5 +21,7 @@ export default function Home() {
         <a>See blog Listing</a>
       </Link>
     </div>
+
+    </>
   );
 }
